@@ -163,7 +163,7 @@ is used to test the modules. You are encouraged to use it and feel free to contr
 * Test cases duplicated 3 subroutines and functions from [vbsbricks_files.vbs](vbsbricks_files.vbs):
 `GetScriptDirectory()`, `PathCombine()` and `IncludeFile()`.
 This is on purpose to reduce the dependency of [vbsbricks_unit.vbs](vbsbricks_unit.vbs) to other modules.
-* A test template is provided as [vbsbrick_template_test.vbs](vbsbrick_template_test.vbs).
+* A test template is provided as [vbsbricks_template_test.vbs](vbsbricks_template_test.vbs).
 
 
 ## Requirements

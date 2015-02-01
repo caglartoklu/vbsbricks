@@ -29,7 +29,7 @@ Here is nice article from [How-to Geek](http://www.howtogeek.com/):
 * Create your VBScript file that will access a VBSbricks module, and add the following code into it.
 ([Original link](http://gazeek.com/coding/importing-vbs-files-in-your-vbscript-project/) for this subroutine is dead,
 so the code has been taken from [VBSdoc.vbs](https://github.com/miyamiya/VBSdoc/blob/5341e2ecc075f247ce2b00413cf089d0d03303cb/VBSdoc.vbs#L2744) itself.)
-```VBScript
+```vbnet
 '! Import the first occurrence of the given filename from the working directory
 '! or any directory in the %PATH%.
 '!
@@ -79,7 +79,7 @@ End Sub
 ```
 * Import the required libraries from your `.vbs` files as follows:
 
-```VBScript
+```vbnet
 Call Import("vbsbricks_arrays.vbs")
 Call Import("vbsbricks_files.vbs")
 Call Import("vbsbricks_networking.vbs")
@@ -90,7 +90,7 @@ Call Import("vbsbricks_strings.vbs")
 
 ### Clonning VBSbricks
 
-```
+```bat
 git clone https://github.com/caglartoklu/vbsbricks.git
 ```
 
@@ -126,7 +126,8 @@ Add its folder to system path as stated on [How-to Geek](http://www.howtogeek.co
 [How to Edit Your System PATH for Easy Command Line Access](http://www.howtogeek.com/118594/how-to-edit-your-system-path-for-easy-command-line-access/)
 
 ### Clonning VBSdoc
-```
+
+```bat
 git clone https://github.com/miyamiya/VBSdoc.git
 ```
 
